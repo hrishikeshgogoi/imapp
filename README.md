@@ -9,4 +9,5 @@ ssh -i ~/Downloads/hrishi.pem ec2-user@13.60.56.206
 * Running on all addresses (0.0.0.0)
 * Running on http://127.0.0.1:8080
 * Running on http://172.31.39.171:8080
-Unfortunately when trying to access the site “http://172.31.39.171:8080” the page does not load and I was unable to fix the issue during the allotted time so I was unable to move further with encryption and decryption stages
+
+	Unfortunately when trying to access the site “http://172.31.39.171:8080” the page does not load and I was unable to fix the issue during the allotted time so I was unable to move further with encryption and decryption stages
