@@ -10,9 +10,8 @@ ssh -i ~/Downloads/hrishi.pem ec2-user@13.60.56.206
 * Running on http://127.0.0.1:8080
 * Running on http://172.31.39.171:8080
 
-	Unfortunately when trying to access the site “http://172.31.39.171:8080” the page does not load and I was unable to fix the issue during the allotted time so I was unable to move further with encryption and decryption stages
+	WIP
 
-  Edit:(Due to problems with video upload)**
 In the python file named test01.py First I imported Flask for building the web application, I import boto3 for interacting with the S3 services and os for handling file paths. NoCredentialsError for cases where AWS credentials are missing
 I set a secret key to enable session management.I initialised s3 client: with s3 bucket and region. I implemented the home function to render the home page. The upload_image function handles the image upload logic when a user submits a file. The list_images function lists all the images currently stored in the S3 bucket. And the last snippet starts the flask development server and makes it accessible on all network interfaces on port 8080.
 The body of the uploadpage.html conatins the logic for the 1st page where images can be uploaded. It includes a file input, a submit button, and displays any flashed messages (like success or error notifications) after the file is processed.
